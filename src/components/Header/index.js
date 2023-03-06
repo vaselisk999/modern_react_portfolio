@@ -1,8 +1,8 @@
-import React from "react";
-import { NavLink, Link, useLocation } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { Link, useLocation } from 'react-router-dom';
 import './style.css'
 
-export default function Header({parallax} ) {
+export default function Header({ parallax }) {
     //assigning location variable
     const location = useLocation();
 
@@ -11,6 +11,21 @@ export default function Header({parallax} ) {
 
     //Javascript split method to get the name of the path in array
     const splitLocation = pathname.split("/");
+
+    useEffect(() => {
+        switch (splitLocation[1]) {
+            case "":
+                parallax.current.scrollTo(0);
+                break;
+            case "projects":
+                parallax.current.scrollTo(1);
+                break;
+            case "contact":
+                parallax.current.scrollTo(2);
+                break;
+
+        }
+    })
 
     return (
         <>

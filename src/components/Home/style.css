@@ -1,0 +1,36 @@
+.home_wrapper{
+    width: 50%;
+}
+
+.home_wrapper p, .home_wrapper h1{
+    color: white
+}
+
+.home_wrapper .bigFont{
+    font-size: 1.6rem;
+}
+
+.home_wrapper .midFont{
+    font-size: 1rem;
+}
+
+.home_wrapper .smallFont{
+    font-size: 0.8rem;
+}
+
+.home_wrapper .image_wrapper{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    top: -300px;
+}
+
+.home_wrapper .image_wrapper img{
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}

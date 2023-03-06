@@ -1,21 +1,24 @@
 import React, { useRef } from 'react';
 import { Parallax, ParallaxLayer } from '@react-spring/parallax';
-import Header from './components/Header';
 import { HashRouter as Router } from 'react-router-dom';
+import Header from './components/Header';
+import HomeComponent from './components/Home';
 
 // Little helpers ...
 const url = (name, wrap = false) =>
   `${wrap ? 'url(' : ''}https://awv3node-homepage.surge.sh/build/assets/${name}.svg${wrap ? ')' : ''}`
 
 export default function App() {
-  const parallax = useRef(null)
+  const parallax = useRef(null);
+
+
   return (
     <>
       <Router>
         <Header parallax={parallax} />
 
         <div style={{ width: '100%', height: '100%', background: '#253237' }}>
-          <Parallax ref={parallax} pages={3} style={{backgroundColor: '#253237', overflow: "hidden"}}>
+          <Parallax ref={parallax} pages={3} style={{ backgroundColor: '#253237', overflow: "hidden" }}>
             <ParallaxLayer offset={1} speed={1} style={{ backgroundColor: '#805E73' }} />
             <ParallaxLayer offset={2} speed={1} style={{ backgroundColor: '#87BCDE' }} />
 
@@ -80,23 +83,23 @@ export default function App() {
                 backgroundImage: url('clients', true),
               }}
             />
+            
 
             <ParallaxLayer
               offset={0}
               speed={0.1}
-              onClick={() => parallax.current.scrollTo(1)}
               style={{
                 display: 'flex',
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>
-              <img src={url('server')} style={{ width: '20%' }} alt="" />
+              
+              <HomeComponent />
             </ParallaxLayer>
 
             <ParallaxLayer
               offset={1}
               speed={0.1}
-              onClick={() => parallax.current.scrollTo(2)}
               style={{
                 display: 'flex',
                 alignItems: 'center',
@@ -113,7 +116,7 @@ export default function App() {
                 alignItems: 'center',
                 justifyContent: 'center',
               }}
-              onClick={() => parallax.current.scrollTo(0)}>
+            >
               <img src={url('clients-main')} style={{ width: '40%' }} alt="" />
             </ParallaxLayer>
           </Parallax>

@@ -3,6 +3,7 @@ import { Parallax, ParallaxLayer } from '@react-spring/parallax';
 import { HashRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import HomeComponent from './components/Home';
+import ContactComponent from './components/Contacts';
 
 // Little helpers ...
 const url = (name, wrap = false) =>
@@ -93,7 +94,6 @@ export default function App() {
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>
-              
               <HomeComponent />
             </ParallaxLayer>
 
@@ -117,7 +117,8 @@ export default function App() {
                 justifyContent: 'center',
               }}
             >
-              <img src={url('clients-main')} style={{ width: '40%' }} alt="" />
+              {/* <img src={url('clients-main')} style={{ width: '40%' }} alt="" /> */}
+              <ContactComponent />
             </ParallaxLayer>
           </Parallax>
         </div>

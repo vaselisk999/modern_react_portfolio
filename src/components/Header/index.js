@@ -23,7 +23,9 @@ export default function Header({ parallax }) {
             case "contact":
                 parallax.current.scrollTo(2);
                 break;
-
+            default:
+                parallax.current.scrollTo(0);
+                break;
         }
     })
 

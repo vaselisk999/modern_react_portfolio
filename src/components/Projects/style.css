@@ -39,6 +39,7 @@
 .projects_wrapper .container a{
     color: black;
 }
+
 .projects_wrapper .container a:hover{
     color: blue;
     text-decoration: underline;

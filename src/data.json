@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Bootstrap Portfolio",
+        "deployedLink": "https://vaselisk999.github.io/bootstrap-portfolio/",
+        "gitHubLink": "https://github.com/vaselisk999/bootstrap-portfolio",
+        "image": "./assets/bootstrap_portfolio.png"
+    },
+    {
+        "title": "ReadMe Generator",
+        "deployedLink": "https://github.com/vaselisk999/ReadMeGenerator",
+        "gitHubLink": "https://github.com/vaselisk999/ReadMeGenerator",
+        "image": "./assets/readmegenerator.png"
+    },
+    {
+        "title": "tasty-facts",
+        "deployedLink": "https://github.com/vaselisk999/tasty-facts",
+        "gitHubLink": "https://vaselisk999.github.io/tasty-facts/",
+        "image": "./assets/testy_facts.png"
+    },
+    {
+        "title": "work-day-sheduler",
+        "deployedLink": "https://github.com/vaselisk999/work-day-sheduler",
+        "gitHubLink": "https://vaselisk999.github.io/work-day-sheduler/",
+        "image": "./assets/work_day.png"
+    },
+    {
+        "title": "Weather Forecast Dashboard",
+        "deployedLink": "https://github.com/vaselisk999/weather_forecast",
+        "gitHubLink": "https://vaselisk999.github.io/weather_forecast/",
+        "image": "./assets/weather.png"
+    },
+    {
+        "title": "Team profile html generator",
+        "deployedLink": "https://github.com/vaselisk999/team_profile_html_generator",
+        "gitHubLink": "https://github.com/vaselisk999/team_profile_html_generator",
+        "image": "./assets/team_gen.png"
+    }
+]

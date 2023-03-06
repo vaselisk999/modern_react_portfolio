@@ -4,6 +4,7 @@ import { HashRouter as Router } from 'react-router-dom';
 import Header from './components/Header';
 import HomeComponent from './components/Home';
 import ContactComponent from './components/Contacts';
+import ProjectsComponent from './components/Projects';
 
 // Little helpers ...
 const url = (name, wrap = false) =>
@@ -105,7 +106,7 @@ export default function App() {
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>
-              <img src={url('bash')} style={{ width: '40%' }} alt="" />
+              <ProjectsComponent />
             </ParallaxLayer>
 
             <ParallaxLayer
@@ -117,7 +118,6 @@ export default function App() {
                 justifyContent: 'center',
               }}
             >
-              {/* <img src={url('clients-main')} style={{ width: '40%' }} alt="" /> */}
               <ContactComponent />
             </ParallaxLayer>
           </Parallax>

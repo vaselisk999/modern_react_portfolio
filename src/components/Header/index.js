@@ -1,46 +1,44 @@
 import React from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link, useLocation } from 'react-router-dom';
 import './style.css'
 
-export default function Header({parallax}) {
+export default function Header({parallax} ) {
+    //assigning location variable
+    const location = useLocation();
+
+    //destructuring pathname from location
+    const { pathname } = location;
+
+    //Javascript split method to get the name of the path in array
+    const splitLocation = pathname.split("/");
+
     return (
         <>
             <nav className="horizontal-menu plain">
                 <ul className="menu">
-                    <li className="menu_list">
-                        <NavLink
+                    <li className={splitLocation[1] === "" ? "active" : ""}>
+                        <Link
                             to="/"
-                            end
-                            className={({ isActive }) =>
-                                isActive ? 'active' : ''
-                            }
                             onClick={() => parallax.current.scrollTo(0)}
                         >
                             Home
-                        </NavLink>
+                        </Link>
                     </li>
-                    <li className="menu_list">
-                        <NavLink
+                    <li className={splitLocation[1] === "projects" ? "active" : ""}>
+                        <Link
                             to="projects"
-                            className={({ isActive }) =>
-                                isActive ? 'active' : ''
-                            }
                             onClick={() => parallax.current.scrollTo(1)}
                         >
                             Projects
-                        </NavLink>
+                        </Link>
                     </li>
-                    <li className="menu_list">
-                        <NavLink
+                    <li className={splitLocation[1] === "contact" ? "active" : ""}>
+                        <Link
                             to="contact"
-                            end
-                            className={({ isActive }) =>
-                                isActive ? 'active' : ''
-                            }
                             onClick={() => parallax.current.scrollTo(2)}
                         >
                             Contact
-                        </NavLink>
+                        </Link>
                     </li>
                 </ul>
             </nav>

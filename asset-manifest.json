@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/modern_react_portfolio/static/css/main.132c93fa.css",
+    "main.js": "/modern_react_portfolio/static/js/main.6affb246.js",
+    "static/js/787.4a3b0046.chunk.js": "/modern_react_portfolio/static/js/787.4a3b0046.chunk.js",
+    "static/media/testy_facts.png": "/modern_react_portfolio/static/media/testy_facts.af177e3266a1814dee71.png",
+    "static/media/weather.png": "/modern_react_portfolio/static/media/weather.4901b735edcee1a7a530.png",
+    "static/media/work_day.png": "/modern_react_portfolio/static/media/work_day.496d0d4ea6e823283b9c.png",
+    "static/media/readmegenerator.png": "/modern_react_portfolio/static/media/readmegenerator.f1f38825817e5ce608c0.png",
+    "static/media/bootstrap_portfolio.png": "/modern_react_portfolio/static/media/bootstrap_portfolio.1f00872d4ae746950ce4.png",
+    "static/media/team_gen.png": "/modern_react_portfolio/static/media/team_gen.dff91cd25afa505b20db.png",
+    "index.html": "/modern_react_portfolio/index.html",
+    "main.132c93fa.css.map": "/modern_react_portfolio/static/css/main.132c93fa.css.map",
+    "main.6affb246.js.map": "/modern_react_portfolio/static/js/main.6affb246.js.map",
+    "787.4a3b0046.chunk.js.map": "/modern_react_portfolio/static/js/787.4a3b0046.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.132c93fa.css",
+    "static/js/main.6affb246.js"
+  ]
+}

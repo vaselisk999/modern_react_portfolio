@@ -1,7 +1,7 @@
 {
   "name": "modern_react_portfolio",
   "version": "0.1.0",
-  "homepage": "https://vaselisk999.github.io/react-gh-pages",
+  "homepage": "https://vaselisk999.github.io/modern_react_portfolio/build",
   "private": true,
   "dependencies": {
     "@react-spring/parallax": "^9.7.1",

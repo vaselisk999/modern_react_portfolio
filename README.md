@@ -25,7 +25,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 * link to [@react-spring/parallax](https://www.react-spring.dev/docs/components/parallax).
 * link to [react-router-dom](https://reactrouter.com/en/main).
-* link to [react-router-dom](https://reactrouter.com/en/main).
 
 
 ## Contributing
@@ -40,3 +39,5 @@ The following image shows the web application's appearance and functionality:
 ## Questions
     
 * The URL of the GitHub repository. [Repository link](https://github.com/vaselisk999/modern_react_portfolio).
+
+* The URL of the deployed application. [Repository link](https://vaselisk999.github.io/modern_react_portfolio/).

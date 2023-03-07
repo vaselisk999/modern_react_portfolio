@@ -34,3 +34,20 @@
     max-width: 200px;
     height: auto;
 }
+
+@media only screen and (max-width: 800px) {
+    .home_wrapper{
+        width: 70%;
+    }
+
+    .home_wrapper .image_wrapper{
+        border-radius: 200px;
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        display: inline-block;
+        position: relative;
+        left: 180px;
+        top: -400px;
+    }
+}

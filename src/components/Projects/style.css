@@ -48,3 +48,9 @@
 .projects_wrapper .container::after{
     clear: both;
 }
+
+@media only screen and (max-width: 800px) {
+    .projects_wrapper {
+        width: 90%;
+    }
+}

@@ -44,3 +44,9 @@
     color: blue;
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 800px) {
+    .contacts_wrapper{
+        width: 90%;
+    }
+}
